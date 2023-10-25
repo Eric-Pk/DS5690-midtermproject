@@ -84,10 +84,9 @@ Ablation experiments show that using the Position Interpolation method to improv
 
 ## Resources
 
-- [Link to another relevant paper](#)
-- [Link to model's official page](#)
-- [Link to a related blog post](#)
-- [PapersWithCode link](#)
+- [[Link to the paper](https://arxiv.org/abs/2306.15595)](#)
+- [[Link to a related tutorial post](https://www.youtube.com/watch?v=oyXdmtHgZFw&t=53s)](#)
+- [[PapersWithCode link](https://github.com/ymcui/chinese-llama-alpaca-2)](#)
 
 
 ## Citation
