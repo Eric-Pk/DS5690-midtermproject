@@ -50,7 +50,7 @@ For each position, Linear Position Interpolation calculates the distance between
 
 Assume that the original position encoding is $P_1, P_2, ..., P_n$, where $n$ is the length of the original sequence. In order to expand the context window, Position Interpolation will insert some additional position codes $P_{n+1}, P_{n+2}, ..., P_m$, where $m$ is the extended sequence length. These additional position codes can be calculated by linear interpolation.
 
-For each additional position $i$, its position encoding can be calculated as: $$P_i = \frac{i-n}{m-n}P_m + \frac{m-i}{m-n}P_n$$ where, $i $ represents additional positions, $m$ represents the extended sequence length. In this way, Position Interpolation can extend the context window to handle longer sequences without increasing model parameters.
+For each additional position $i$, its position encoding can be calculated as: $$P_i = \frac{i-n}{m-n}P_m + \frac{m-i}{m-n}P_n$$ where, $i$ represents additional positions, $m$ represents the extended sequence length. In this way, Position Interpolation can extend the context window to handle longer sequences without increasing model parameters.
 
 ### Experiment
 
