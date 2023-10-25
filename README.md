@@ -8,7 +8,7 @@
 - Yuandong Tian
 
 **Affiliation**: Meta Platforms Inc.
-
+![image text](https://github.com/Eric-Pk/DS5690-midtermproject/blob/main/outline.png)
 ## Overview
 
 Position Interpolation (PI) extends the context window sizes of RoPE-based pretrained LLMs. The problem addressed is the limitation of context window sizes in existing models, and the solution presented is the introduction of Position Interpolation to overcome this limitation. The approach demonstrates strong empirical results on various tasks requiring long context.
