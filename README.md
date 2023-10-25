@@ -13,7 +13,7 @@
 
 ### What problem does this article solve?
 
-  This paper introduces a technique called Position Interpolation that can expand the context window size of RoPE-based pretrained LLMs with minimal fine-tuning, thereby achieving strong empirical results on a variety of tasks requiring long context, including password retrieval,language modeling and long document summarization.
+  This paper introduces a technique called Position Interpolation that can expand the context window size of RoPE-based pretrained LLMs with minimal fine-tuning, thereby achieving strong empirical results on a variety of tasks requiring long context, including password retrieval, language modeling and long document summarization.
   
 ### What are the shortcomings of existing solutions?
 
@@ -69,8 +69,6 @@ Ablation experiments show that using the Position Interpolation method to improv
 
 ## Critical Analysis
 
-### future work
-
 1.The performance of the Position Interpolation method is tested on different training data sets to evaluate its performance on different context corpora.
 
 2.The Position Interpolation method can be applied on multiple language models, such as testing on GPT, Transformer, and other recurrent neural network-based language models.
@@ -81,8 +79,8 @@ Ablation experiments show that using the Position Interpolation method to improv
 
 ## Questions for Discussion
 
-1. Question 1: <!-- Placeholder for the first chosen topic and question for discussion -->
-2. Question 2: <!-- Placeholder for the second chosen topic and question for discussion -->
+1. Question 1: what aspect do you think this methodology can be improved in the future?
+2. Question 2: what is the limitation for this methodology?
 
 ## Resources
 
@@ -91,17 +89,12 @@ Ablation experiments show that using the Position Interpolation method to improv
 - [Link to a related blog post](#)
 - [PapersWithCode link](#)
 
-## Code Demonstration
-
-See the attached Jupyter Notebook for a demonstration of using the proposed model/approach.
-
-
-## Video Recording
-
-[Link to the video recording of the overview](#)
 
 ## Citation
 
-```
-@inproceedings{...}  <!-- Placeholder for the actual BibTeX citation -->
-```
+@article{chen2023extending,
+  title={Extending context window of large language models via positional interpolation},
+  author={Chen, Shouyuan and Wong, Sherman and Chen, Liangjian and Tian, Yuandong},
+  journal={arXiv preprint arXiv:2306.15595},
+  year={2023}
+}
